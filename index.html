@@ -35,20 +35,18 @@
 
           <div class="profile__info">
             
-            <h1 class="profile__info-name">Jacques Cousteau
-              <button class="editbutton">
-                <img class="editbutton__pencil" src="./images/editbuttonVector.svg" alt="imagen lapiz editor">
-              </button> <!--((-antes editbutton-))-->              
-
-            </h1>           
+            <h1 class="profile__info-name">Jacques Cousteau</h1>
+            <button type="button" class="editbutton"> <!--ojo cambiar a open__popup antes editbutton-->
+              <img class="editbutton__pencil" src="./images/editbuttonVector.svg" alt="imagen lapiz editor">
+            </button> <!--((-antes editbutton-))-->                       
             
             <h2 class="profile__info-description">Explorador</h2>            
 
           </div>
           
           <div class="addbutton">
-            <button class="addbutton__vector">
-              <img class="addbutton__vector-plus" src="./images/addbuttonVector.svg" alt="imagen simbolo mas">
+            <button type="button" class="addbutton__vector">
+             <img class="addbutton__vector-plus" src="./images/addbuttonVectormar03.svg" alt="imagen simbolo mas">
             </button>  <!-- ((-antes addbutton-))-->
           </div>                    
 
@@ -65,8 +63,23 @@
 
                 <label class="popup__label">Editar Perfil</label>
 
-                <input type="text" class="popup__input1" name="name" placeholder="Nombre"/> <!--required-->
-                <input type="text" class="popup__input2" name="ocupation" placeholder="Acerca de Mi"/> <!--required-->
+                <input
+                 type="text"
+                 class="popup__input1" 
+                 id="fieldname" 
+                 value="Jacques Cousteau"
+                 name="name" 
+                 placeholder="Nombre"                 
+                /> <!--id="name"  required-->
+                
+                <input
+                 type="text" 
+                 class="popup__input2"
+                 id="fieldjob"
+                 value="Explorador"
+                 name="ocupation"
+                 placeholder="Acerca de Mi"               
+                /> <!--id="job" required-->
                 <button type="submit" class="popup__submit-button">Guardar</button>
 
               </fieldset>
@@ -143,6 +156,6 @@
           
 
     </main>
-
+    <script src="script.js"></script>>
   </body>
 </html>

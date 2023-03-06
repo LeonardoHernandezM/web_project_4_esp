@@ -144,7 +144,7 @@
   /*bottom: 36px;*/
   left: 19px;
   right: 19px;
-  border:1px solid red;
+  /*border:1px solid red;*/
   box-sizing: content-box;
 }
 
@@ -155,7 +155,7 @@
   top:0px;
   left:58.5px;/*22.5px;/**/
   right: 100px;
-  border:1px solid blue;
+  /*border:1px solid blue;*/
   /*align-self: center;*/
   box-sizing: content-box;
   
@@ -172,25 +172,25 @@
   right:26.25px;/*64.75px;/* 73.75px;*/
   border-radius: 80%;
   /*align-items: center;*/
-  border: 0.5px solid yellow;
+  /*border: 0.5px solid yellow;*/
 
 }
 
 .profile__info{
-    position: absolute;
-    width:282px;/*100%;*/
-    height:50px;
-    top:150px;
-    left: 0px;
-    right:0px;
-    border: 1px dashed purple;
-    color: #ffffff;
-    box-sizing: content-box;
+  position: absolute;
+  width:282px;/*100%;*/
+  height:50px;
+  top:150px;
+  left: 0px;
+  right:0px;
+  /*border: 1px dashed purple;*/
+  color: #ffffff;
+  box-sizing: content-box;
 }
 
 .profile__info-name{
   position: absolute;
-  width: 224px;
+  width: 196px;/*224px;*/
   height: 22px;
   top:0px;/*192px;*/
   left: 29px;
@@ -198,17 +198,22 @@
   /*border: 1px solid #ffffff;*/
   font-family: "Inter";
   font-size: 22px;
-  line-height:26.63px;
+  line-height:24.5px;
   font-weight: 500;
   text-align: center;
+  text-overflow: ellipsis;/*segun guia*/
+  white-space: nowrap; /*segun guia*/
+  overflow: hidden; /*segun guia*/
+  
 }
 
 .editbutton{
+  /*antes .editbutton*/
   position: absolute;
   width: 18px;
   height: 18px;
   top:4px;
-  left:216px;
+  left:245px;
   right: 48px;
   box-sizing: border-box;
   border:1px solid #ffffff;
@@ -216,13 +221,13 @@
   background-color: #000000;
 }
 
-.editbutton:hover{
+.editbutton:hover{/*antes editbutton:hover*/
   border:1px solid grey;
 }
 
 .popup {
   position:relative;/*absolute;/*fixed;*/
-  display:none;/*flex;*/
+  display:none;/*none; flex;*/
   width:320px;/*282px;*/
   height:568px;/*322px;*/
   top:0px;/*20px 5px;*/
@@ -231,7 +236,10 @@
   background-color:#000000;
   opacity:0.95;
   z-index:2;
+}
 
+.open__popup{
+ display: block;
 }
 
 .popup__overlay{
@@ -247,7 +255,7 @@
 }
 
 .closeicon {
-  display: none;
+  display:flex;/* none;*/
   position:fixed;
   width: 26px;
   height: 26px;
@@ -256,14 +264,14 @@
 }
 
 
-.closeicon:hover{
+.closeicon:hover {
   opacity:0.6;
   /*background-color:rgb(42, 44, 47, 0.8); /*(42, 44, 47, 0.8);*/
 }
 
 .popup__form{  
   /*antes .popup__container*/
-  display:flex;
+  display:flex;/*none;/*flex;*/
   flex-direction:column;
   position:relative;/*absolute;*/
   width:282px;
@@ -333,10 +341,72 @@
 }
 
 
+
+.profile__info-description {
+  position: absolute;
+  width: 282px;
+  height: 15px;
+  top:30px;
+  left:0px;
+  font-family: "Inter";
+  font-size: 13.5px;
+  line-height:15px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  text-overflow: ellipsis;/*segun guia*/
+  white-space: nowrap; /*segun guia*/
+  overflow: hidden; /*segun guia*/
+  
+}
+
+.addbutton{
+  position: absolute;
+  width: 282px;
+  height: 50px;
+  top:236px;
+  left: 0px;
+  box-sizing: content-box;
+  border:2px solid #ffffff;
+  border-radius: 2px;     
+}
+
+
+.addbutton:hover { 
+  border:2px solid grey;
+  /*background-color:rgb(42, 44, 47, 0.8);*/
+}
+
+  
+.addbutton__vector{
+  position: absolute;
+  width: 20px;/*16px;*/
+  height: 20px;/*16px;*/
+  top:16px;
+  bottom: 17px;
+  left:45.5%; /*133px;*/
+  right:46.5%;/*133px;*/
+  color:#ffffff;/*black;/*#ffffff;*/
+}
+
+
+.addbutton__vector-plus{
+  width: 16.5px;
+  height: 16.5px;
+  /*background-color:#ffffff;*/
+  color:black;
+}
+
+.addbutton__vector-plus:hover{  
+  opacity:0.6;
+}
+
+
+
 @media screen and (min-width:1280px) {
 
   .popup {
-   display:none;
+   display:none;/*flex;*/
    position:fixed;/*relative;absolute;*/
    width:1280px;/*282px;*/
    height:720px;/*322px;*/
@@ -362,7 +432,7 @@
  }
 
  .closeicon{
-  display: none;
+  display:flex;/* none;*/
   position:fixed;/*relative;*/
   width:40px;/*26px;*/
   height:40px;/*26px;*/
@@ -372,7 +442,7 @@
 
  .popup__form{  
   /*antes .popup__container*/
-  display:flex;
+  display:flex;/*none;*/
   flex-direction:column;
   position:relative;/*absolute;*/
   width:430px;/*282px;*/
@@ -434,66 +504,14 @@
   line-height:17px;
   font-weight: 400;
   color: #ffffff;
- }
+  }
 
+  .open__popup{
+    display: block;
+  }
 }
 
 
-
-.profile__info-description {
-  position: absolute;
-  width: 282px;
-  height: 14px;
-  top:34px;
-  left:0px;
-  font-family: "Inter";
-  font-size: 14px;
-  line-height:16.94px;
-  font-weight: 400;
-  text-align: center;
-  color: #ffffff;
-
-}
-
-.addbutton{
-  position: absolute;
-  width: 282px;
-  height: 50px;
-  top:236px;
-  left: 0px;
-  box-sizing: content-box;
-  border:2px solid #ffffff;
-  border-radius: 2px;     
-}
-
-
-.addbutton:hover { 
-  border:2px solid grey;
-  /*background-color:rgb(42, 44, 47, 0.8);*/
-}
-
-  
-.addbutton__vector{
-  position: absolute;
-  width: 17.5px;
-  height: 17.5px;
-  top:16px;
-  bottom: 17px;
-  left:46.5%; /*133px;*/
-  right:47.5%;/*133px;*/
-  color:black;/*#ffffff;*/
-}
-
-/*
-.addbutton__vector-plus{
-  width: 17px;
-  height: 17px;
-  background-color:#ffffff;
-}*/
-
-.addbutton__vector-plus:hover{  
-  opacity:0.6;
-}
 
 
 
@@ -524,7 +542,7 @@
     top:0px;
     left:0px;/*22.5px;/**/
     right:760px;
-    border:1px solid blue;
+    /*border:1px solid blue;*/
     box-sizing: content-box;  
     /*align-self: center;*/
   }
@@ -538,7 +556,7 @@
     left:22.5px;/*7.5px;/* 58.5 antes  77.5px;*/
     right:26.25px;/*64.75px;/* 73.75px;*/
     border-radius: 80%;
-    border: 0.5px solid yellow;
+    /*border: 0.5px solid yellow;*/
     /*align-items: center;*/
   }
 
@@ -546,28 +564,31 @@
     position:absolute;/*relative;*/
     width:415px;/*100%;*/
     height:74px;
-    top:22px;/*16.5px;*/
+    top:20px;/*16.5px;*/
     left:172px;/*183.75px;*/
     right:515px;
     /*left:180px;*/
-    border:1px dashed purple;
+    /*border:1px dashed purple;*/
     color:#ffffff;
     box-sizing:content-box;
    }
 
   .profile__info-name{
-    position: absolute;
+    position:relative;/*absolute;*/
     width: 373px;
-    height: 39px;
+    height: 41px;
     top:0px;/*192px;*/
-    left: 0px;
+    left:0px;
     right: 557px;
     /*border: 1px solid #ffffff;*/
     font-family: "Inter";
-    font-size: 42px;
-    line-height:48px;
+    font-size: 41px;
+    line-height:45px;
     font-weight: 500;
-    text-align:left;
+    /*justify-content:left;*/
+    /*text-align:left;*/
+    align-self: auto;
+    
   }
 
   .profile__info-description{
@@ -582,6 +603,7 @@
     font-weight:400px;
     text-align:left;
     color: #ffffff;
+    
   }
 
   .editbutton{
@@ -630,7 +652,7 @@
   left:19px;
   right:19px;
   background-color: #000000;
-  border:1px solid green;
+  /*border:1px solid green;*/
 }
 
 .element {
