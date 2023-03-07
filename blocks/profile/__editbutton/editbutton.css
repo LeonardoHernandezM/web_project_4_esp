@@ -1,0 +1,33 @@
+
+.editbutton{
+    
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top:4px;
+  left:245px;
+  right: 48px;
+  box-sizing: border-box;
+  border:1px solid #ffffff;
+  background-color: #000000;
+}
+  
+.editbutton:hover{
+  border:1px solid grey;
+}
+
+@media screen and (min-width:1280px) {
+
+  .editbutton{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top:15px;
+    bottom:35px;
+    left:391px;
+    right:515px;
+    box-sizing: border-box;
+    border:1px solid #ffffff;
+    background-color: #000000;
+  }
+}

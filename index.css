@@ -42,7 +42,7 @@
 
 
 .root  {
-  background-color: #000000;
+  background-color: #e5e5e5;
   width: 320px;
   height: 2814px;
 }
@@ -50,7 +50,7 @@
 @media screen and (min-width:1280px) {
 
   .root  {
-   background-color: #000000;
+   background-color: #e5e5e5;
    width:1280px;/*320px;*/
    height:1217px;/*2814px;*/
   }
@@ -123,11 +123,12 @@
 }
 
 
-/*
+
 .content{
   width: 100%;
   height: 2814px;
-}*/
+  background-color: #000000;
+}
 
 .profile {
   display:grid;/* flex;*/
@@ -305,7 +306,7 @@
   color: #000000;
 }
 
-.popup__input1{
+.popup__input-name{
   position: relative;
   width:238px;
   height:26px;
@@ -313,7 +314,7 @@
   left:20px;
 }
 
-.popup__input2{
+.popup__input-job{
   position: relative;
   width:238px;
   height:26px;
@@ -380,21 +381,24 @@
   
 .addbutton__vector{
   position: absolute;
-  width: 20px;/*16px;*/
-  height: 20px;/*16px;*/
+  width: 16px;/*16px;*/
+  height: 16px;/*16px;*/
   top:16px;
-  bottom: 17px;
-  left:45.5%; /*133px;*/
-  right:46.5%;/*133px;*/
-  color:#ffffff;/*black;/*#ffffff;*/
+  bottom: 16px;
+  left:47.5%; /*133px;*/
+  right:47.5%;/*133px;*/
+  /*color:#ffffff;/*black;/*#ffffff;*/
+  /*border-style:none ;*/
+
 }
 
 
 .addbutton__vector-plus{
-  width: 16.5px;
-  height: 16.5px;
+  width: 16px;
+  height: 16px;
   /*background-color:#ffffff;*/
   color:black;
+  /*border-style:none;*/
 }
 
 .addbutton__vector-plus:hover{  
@@ -475,7 +479,7 @@
   color: #000000;
  }
 
- .popup__input1{
+ .popup__input-name{
   position: relative;
   width:358px;/*238px;*/
   height:27.26px;/*26px;*/
@@ -483,7 +487,7 @@
   left:36px;/*21px;/*20px;*/
  }
 
- .popup__input2{
+ .popup__input-job{
   position: relative;
   width:358px;/*238px;*/
   height:27.26px;/*26px;*/
@@ -631,6 +635,7 @@
     border:2px solid #ffffff;
     border-radius: 2px;
   }
+  
 }
 
 .elements{

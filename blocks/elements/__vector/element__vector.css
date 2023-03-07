@@ -1,0 +1,16 @@
+
+.element__vector {
+  position:relative;
+  width:21px;
+  height:19px;
+  top:3px;
+  left:81.88%;
+  right: 11.56%;
+  bottom:33px;
+  color: #000000;
+}
+  
+.element__vector:hover {
+    opacity:0.7;
+}
+  

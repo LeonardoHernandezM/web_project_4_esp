@@ -1,0 +1,33 @@
+
+
+.addbutton{
+   position: absolute;
+   width: 282px;
+   height: 50px;
+   top:236px;
+   left: 0px;
+   box-sizing: content-box;
+   border:2px solid #ffffff;
+   border-radius: 2px;     
+}
+  
+  
+.addbutton:hover { 
+  border:2px solid grey;
+}
+
+@media screen and (min-width:1280px) {
+
+  .addbutton{
+   position: absolute;
+   width: 192px;
+   height: 50px;
+   top:35px;
+   left:685px;
+   bottom:35px ;
+   box-sizing: content-box;
+   border:2px solid #ffffff;
+   border-radius: 2px;
+  }
+}
+  

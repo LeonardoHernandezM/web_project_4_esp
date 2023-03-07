@@ -1,0 +1,24 @@
+
+.footer {
+    position:absolute;/*relative;*/
+    width:282px;
+    height:14px;
+    top:2764px;
+    left:19px;
+    bottom:36px;
+    background-color: #000000;
+}
+
+@media screen and (min-width:1280px) {
+
+    .footer {
+      position:absolute;/*relative;*/
+      width:318px;/*282px;*/
+      height:18px;/*14px;*/
+      top:1139px;/*2764px;*/
+      left:200px;/*19px;*/
+      /*bottom:36px;*/
+      background-color: #000000;
+    }
+}
+  
