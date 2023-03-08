@@ -368,8 +368,9 @@
   top:236px;
   left: 0px;
   box-sizing: content-box;
+  background-color: #000000;
   border:2px solid #ffffff;
-  border-radius: 2px;     
+  border-radius: 2px;   
 }
 
 
@@ -381,24 +382,19 @@
   
 .addbutton__vector{
   position: absolute;
-  width: 16px;/*16px;*/
-  height: 16px;/*16px;*/
+  width: 16px;/*0px;16px;*/
+  height: 16px;/*16px;/*16px;*/
   top:16px;
   bottom: 16px;
   left:47.5%; /*133px;*/
   right:47.5%;/*133px;*/
   /*color:#ffffff;/*black;/*#ffffff;*/
-  /*border-style:none ;*/
 
 }
 
 
 .addbutton__vector-plus{
-  width: 16px;
-  height: 16px;
-  /*background-color:#ffffff;*/
-  color:black;
-  /*border-style:none;*/
+  max-height: 16px;  
 }
 
 .addbutton__vector-plus:hover{  

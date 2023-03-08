@@ -18,22 +18,22 @@
 
 @media screen and (min-width:1280px) {
 
-   .profile {
-     position:relative;
-     display: grid;
-     grid-template-columns: 3fr;
-     grid-template-rows:1fr;
-     grid-template-areas:
+  .profile {
+    position:relative;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows:1fr;
+    grid-template-areas:
        
        "profile__avatar" "profile__info" "addbutton";
           
-     justify-content:space-between;
-     width:880px;
-     height: 129px;
-     top:155px;
-     box-sizing: content-box;
-     left:200px;
-     right:200px;
-    }
+    justify-content:space-between;
+    width:880px;
+    height: 129px;
+    top:155px;
+    box-sizing: content-box;
+    left:200px;
+    right:200px;
+  }
 }  
   

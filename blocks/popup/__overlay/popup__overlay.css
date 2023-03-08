@@ -1,0 +1,27 @@
+
+.popup__overlay{
+    position:fixed;
+    width:282px;
+    height:322px;
+    left:19px;
+    top:140px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /*opacity:1;*/
+    z-index:1;  
+}
+
+@media screen and (min-width:1280px) {
+
+  .popup__overlay{
+    position:fixed;
+    width:430px;/*282px;*/
+    height:330px;/*322px;*/
+    left:425px;/*19px;*/
+    top:195px;/*140px;*/
+    background-color: #ffffff;
+    border-radius: 10px;
+    /*opacity:1;*/
+    z-index:1;  
+  }
+}

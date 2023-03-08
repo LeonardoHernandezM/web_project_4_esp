@@ -1,0 +1,20 @@
+
+.popup__input-job{
+    position: relative;
+    width:238px;
+    height:26px;
+    top:115px;
+    left:20px;
+}
+
+@media screen and (min-width:1280px) {
+
+  .popup__input-job{
+    position: relative;
+    width:358px;/*238px;*/
+    height:27.26px;/*26px;*/
+    top:128px;/*168px;*/
+    left:36px;/*21px;*/
+    }
+}
+  
