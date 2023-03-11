@@ -3,7 +3,7 @@
     position: absolute;
     width: 282px;
     height: 15px;
-    top:30px;
+    top:37px;
     left:0px;
     font-family: "Inter";
     font-size: 13.5px;
@@ -14,6 +14,7 @@
     text-overflow: ellipsis;
     white-space: nowrap; 
     overflow: hidden; 
+    /*display: flex;*/
     
 }
 
@@ -31,5 +32,6 @@
    font-weight:400px;
    text-align:left;
    color: #ffffff;
+   display: flex;
    }
 }

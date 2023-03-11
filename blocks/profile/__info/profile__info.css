@@ -1,6 +1,8 @@
 
 .profile__info{
-   position: absolute;
+   position:absolute;/*relative;*/
+   /*display: flex;*/
+   /*flex-direction: column;*/
    width:282px;
    height:50px;
    top:150px;
@@ -21,6 +23,7 @@
     right:515px;
     color:#ffffff;
     box-sizing:content-box;
-    }
+    border:1px solid red;
+   }
 }
   

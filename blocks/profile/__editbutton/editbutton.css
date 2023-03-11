@@ -1,12 +1,12 @@
 
 .editbutton{
     
-  position: absolute;
+  position: absolute;/*relative;*/
   width: 18px;
   height: 18px;
-  top:4px;
-  left:245px;
-  right: 48px;
+  top:16px;/*0px;*/
+  left:235px;
+  right:48px;
   box-sizing: border-box;
   border:1px solid #ffffff;
   background-color: #000000;
