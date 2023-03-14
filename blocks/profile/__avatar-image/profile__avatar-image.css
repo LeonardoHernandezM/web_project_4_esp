@@ -13,6 +13,21 @@
 @media screen and (min-width:1280px) {
 
   .profile__avatar-image{  
+    position:relative;/*absolute;*/
+    width: 120px;/*168.75px;*/
+    height:120px;/* 127.5px;*/
+    top:2px;/*38.25px;*/
+    bottom:3.5px;
+    left:22.5px;/*7.5px;/* 58.5 antes  77.5px;*/
+    right:26.25px;/*64.75px;/* 73.75px;*/
+    border-radius: 80%;
+    /*border: 0.5px solid yellow;*/
+    /*align-items: center;*/
+  }
+}
+
+
+  /*.profile__avatar-image{  
     position:relative;
     width: 120px;
     height:125px;
@@ -22,5 +37,5 @@
     right:26.25px;
     border-radius: 80%;
     }
-}
+}*/
   

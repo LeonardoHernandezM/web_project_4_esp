@@ -1,7 +1,7 @@
 
 .profile__avatar {
 
-  position: absolute;
+  position:absolute;/*relative;*/
   width:168.75px;
   height:127.5px;
   top:0px;
@@ -14,6 +14,21 @@
 @media screen and (min-width:1280px) {
 
   .profile__avatar {
+    position:relative;/*absolute;*/
+    width:168.75px;/*120px 168.75px;*/
+    height:128px;/* 127.5px; 120px;*/
+    top:0px;
+    left:0px;/*22.5px;/**/
+    right:0px;/*760px;*/
+    box-sizing: content-box;
+    /*border:1px solid blue;*/
+    /*align-self: center;*/
+  } 
+
+}
+
+
+  /*.profile__avatar {
     position:relative;
     width:168.75px;
     height:128px;
@@ -22,5 +37,5 @@
     right:760px;
     box-sizing: content-box;  
     }
-}
+}*/
   

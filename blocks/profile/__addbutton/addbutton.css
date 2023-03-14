@@ -4,7 +4,7 @@
    position: absolute;
    width: 282px;
    height: 50px;
-   top:236px;
+   top:232px;
    left: 0px;
    box-sizing: content-box;
    background-color: black;
@@ -20,6 +20,20 @@
 @media screen and (min-width:1280px) {
 
   .addbutton{
+    position: relative;
+    width: 192px;
+    height: 50px;
+    top:35px;
+    left:90px;
+    bottom:35px ;
+    box-sizing: content-box;
+    border:2px solid #ffffff;
+    border-radius: 2px;
+  }
+}
+
+
+  /*.addbutton{
    position: absolute;
    width: 192px;
    height: 50px;
@@ -31,5 +45,5 @@
    border:2px solid #ffffff;
    border-radius: 2px;
   }
-}
+}*/
   

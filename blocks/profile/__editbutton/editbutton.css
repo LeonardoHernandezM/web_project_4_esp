@@ -19,15 +19,26 @@
 @media screen and (min-width:1280px) {
 
   .editbutton{
-    position: absolute;
-    width: 24px;
+    /*antes .editbutton*/
+    position:absolute;/*relative;*/
+    width: 24px;/*18px;*/
+    height: 24px;/*18px;*/
+    left:375px;
+    top:40px;
+    background-color: #000000;
+  }
+}
+
+  /*.editbutton{
+    position: relative;/*absolute;*/
+    /*width: 24px;
     height: 24px;
-    top:15px;
-    bottom:35px;
+    top:0px;/*15px;*/
+    /*bottom:35px;
     left:391px;
     right:515px;
     box-sizing: border-box;
     border:1px solid #ffffff;
     background-color: #000000;
   }
-}
+}*/

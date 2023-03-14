@@ -20,23 +20,37 @@
 @media screen and (min-width:1280px) {
 
   .profile {
-    position:relative;/*absolute;/*;relative;*/
-    display:grid;
-    grid-template-columns:3fr;
-    grid-template-rows:1fr;
-    grid-template-areas:
-       
-     "profile__avatar" "profile__info" "addbutton";
-          
-    justify-content:space-between;
-    width:880px;
-    height: 129px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width:880px;/*72%;*/
+    height:129px;
     top:155px;
-    /*box-sizing: content-box;*/
-    left:200px;
-    right:200px;
-    border:1px solid green;
-    
+    box-sizing: content-box;
+    left:200px;/*15%;/*6px;/*33%; /*100px;*/
+    right:200px;/*15%;/*0px;/*right:/*33%; /*100px;*/
+    border:1px solid red;
   }
-}  
+}
+
+     /*.profile {
+     position:relative;/*absolute;/*;relative;*/
+     /*display:grid;
+     grid-template-columns:3fr;
+     grid-template-rows:1fr;
+     grid-template-areas:
+        
+      "profile__avatar profile__info addbutton";
+          
+     justify-content:space-between;
+     width:880px;
+     height: 129px;
+     top:155px;
+     /*box-sizing: content-box;*/
+     /*left:200px;
+     right:200px;
+     border:1px solid green;    
+    }
+    }*/
   

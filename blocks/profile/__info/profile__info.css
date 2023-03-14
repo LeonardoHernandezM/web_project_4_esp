@@ -14,16 +14,28 @@
 
 @media screen and (min-width:1280px) {
 
- .profile__info{
-    position:absolute;/*relative;*/
+  .profile__info{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width:415px;/*100%;*/
-    height:74px;
+    height:128px;/*74px;*/
+    top:0px;
+    border:1px solid green;
+   }
+}
+
+ /*.profile__info{
+    position:relative;/*absolute;*/
+   /* width:415px;/*100%;*/
+   /* height:74px;
     top:20px;/*16.5px;*/
-    left:172px;/*183.75px;*/
-    right:515px;
-    color:#ffffff;
+    /*left:0px;/*183.75px;*/
+    /*right:0px;/*515px;*/
+    /*color:#ffffff;
     box-sizing:content-box;
     border:1px solid red;
    }
-}
+}*/
   
