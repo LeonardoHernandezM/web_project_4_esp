@@ -1,38 +1,35 @@
+.popup__submit-button {
+  position: relative;
+  width: 238px;
+  height: 46px;
+  top: 161px;
+  left: 20px;
+  background-color: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+}
 
-.popup__submit-button {  
+.popup__submit-button:hover {
+  background-color: rgb(42, 44, 47, 0.8);
+}
+
+@media screen and (min-width: 1280px) {
+  .popup__submit-button {
     position: relative;
-    width:238px;
-    height:46px;
-    top:161px;
-    left:20px;
+    width: 358px;
+    height: 50.15px;
+    top: 168px;
+    left: 36px;
     background-color: #000000;
     font-family: "Inter";
     font-style: normal;
     font-size: 14px;
-    line-height:17px;
+    line-height: 17px;
     font-weight: 400;
     color: #ffffff;
-}
-  
-.popup__submit-button:hover{
-    background-color: rgb(42, 44, 47, 0.8);
-}
-
-
-@media screen and (min-width:1280px) {
-
-  .popup__submit-button {  
-   position: relative;
-   width:358px;/*238px;*/
-   height:50.15px;/*46px;*/
-   top:168px;/*198px; 161px;*/
-   left:36px;/*20px;*/
-   background-color: #000000;
-   font-family: "Inter";
-   font-style: normal;
-   font-size: 14px;
-   line-height:17px;
-   font-weight: 400;
-   color: #ffffff;
-   }
+  }
 }

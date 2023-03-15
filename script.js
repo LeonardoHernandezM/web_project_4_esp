@@ -12,8 +12,7 @@ let inputJob = document.querySelector(".popup__input-job");/*#fieldjob*/
 let buttonSubmit = document.querySelector(".popup__submit-button");
 /*let profileName = document.querySelector(".popup__input1");
 let profileJob = document.querySelector(".popup__input2");*/
-
-
+ 
 buttonEdit.addEventListener("click", function () {
     popup.classList.add("open__popup");
     inputName.value = profileName.textContent;

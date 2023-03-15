@@ -1,12 +1,9 @@
+.addbutton__vector-plus {
+  width: 16px;
+  height: 16px;
+  color: black;
+}
 
-.addbutton__vector-plus{
-    width: 16px;
-    height: 16px;
-    color:black;
-    
+.addbutton__vector-plus:hover {
+  opacity: 0.6;
 }
-  
-.addbutton__vector-plus:hover{  
-    opacity:0.6;
-}
-  

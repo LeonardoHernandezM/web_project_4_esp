@@ -1,49 +1,29 @@
-
-
-.addbutton{
-   position: absolute;
-   width: 282px;
-   height: 50px;
-   top:232px;
-   left: 0px;
-   box-sizing: content-box;
-   background-color: black;
-   border:2px solid #ffffff;
-   border-radius: 2px;   
-}
-  
-  
-.addbutton:hover { 
-  border:2px solid grey;
+.addbutton {
+  position: absolute;
+  width: 282px;
+  height: 50px;
+  top: 232px;
+  left: 0px;
+  box-sizing: content-box;
+  background-color: black;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
 }
 
-@media screen and (min-width:1280px) {
+.addbutton:hover {
+  border: 2px solid grey;
+}
 
-  .addbutton{
+@media screen and (min-width: 1280px) {
+  .addbutton {
     position: relative;
     width: 192px;
     height: 50px;
-    top:35px;
-    left:90px;
-    bottom:35px ;
+    top: 35px;
+    left: 90px;
+    bottom: 35px;
     box-sizing: content-box;
-    border:2px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 2px;
   }
 }
-
-
-  /*.addbutton{
-   position: absolute;
-   width: 192px;
-   height: 50px;
-   top:35px;
-   left:685px;
-   bottom:35px ;
-   box-sizing: content-box;
-   background-color: black;
-   border:2px solid #ffffff;
-   border-radius: 2px;
-  }
-}*/
-  

@@ -1,44 +1,26 @@
-
-.editbutton{
-    
-  position: absolute;/*relative;*/
+.editbutton {
+  position: absolute;
   width: 18px;
   height: 18px;
-  top:16px;/*0px;*/
-  left:235px;
-  right:48px;
+  top: 16px;
+  left: 235px;
+  right: 48px;
   box-sizing: border-box;
-  border:1px solid #ffffff;
+  border: 1px solid #ffffff;
   background-color: #000000;
 }
-  
-.editbutton:hover{
-  border:1px solid grey;
+
+.editbutton:hover {
+  border: 1px solid grey;
 }
 
-@media screen and (min-width:1280px) {
-
-  .editbutton{
-    /*antes .editbutton*/
-    position:absolute;/*relative;*/
-    width: 24px;/*18px;*/
-    height: 24px;/*18px;*/
-    left:375px;
-    top:40px;
-    background-color: #000000;
-  }
-}
-
-  /*.editbutton{
-    position: relative;/*absolute;*/
-    /*width: 24px;
+@media screen and (min-width: 1280px) {
+  .editbutton {
+    position: absolute;
+    width: 24px;
     height: 24px;
-    top:0px;/*15px;*/
-    /*bottom:35px;
-    left:391px;
-    right:515px;
-    box-sizing: border-box;
-    border:1px solid #ffffff;
+    left: 375px;
+    top: 40px;
     background-color: #000000;
   }
-}*/
+}

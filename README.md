@@ -1,16 +1,23 @@
 # Proyecto 4: Alrededor de los Estados Unidos
 
-### Descripción general
+## Descripción del proyecto    
 
+A partir de lo aprendido en este sprint, este proyecto mantiene la base de las buenas prácticas aprendidas y agrega lo que llamamos el primer paso hacia el
+mundo de la sistematizacion e procesos con Javascript. La página web se adaptará a las pantallas de los diferentes dispositivos que encontramos en el mercado (celulares, tablets y computadores) y al mismo tiempo dará al usuario la posibilidad
+de editar ciertos campos con su informaciòn personal.
+
+## Conociemientos aplicados
+
+* Aplicación de conceptos de HTML y CSS
+* Flexbox y Grid
+* Metodologia BEM
+* Git
 * Figma
-* Imágenes
+*Javascript
 
-**Figma**
+## Posibilidades de mejora
 
-* [Enlace al proyecto en Figma](https://www.figma.com/file/LDMgqWesKpQkIwhOfEBuTS/WEB%2C-Sprint-5%3A-Around-The-U.S.-%7C-desktop-%2B-mobile?node-id=0%3A1)
+El proyecto deberá ser escalado a medida que nuevas herramientas de diseño web se vayan integrando dentro del
+proceso de aprendizaje.
 
-**Imágenes**
 
-A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido. 
-
-¡Esperamos que te diviertas con JavaScript!

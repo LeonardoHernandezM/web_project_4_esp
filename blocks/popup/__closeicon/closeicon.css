@@ -1,27 +1,23 @@
-
 .closeicon {
-  display:flex;/* none;*/
-  position:fixed;
+  display: flex;
+  position: fixed;
   width: 26px;
   height: 26px;
-  top:91px;
-  left:260px;
+  top: 91px;
+  left: 260px;
 }
 
 .closeicon:hover {
-  opacity:0.6;
-  /*background-color:rgb(42, 44, 47, 0.8); /*(42, 44, 47, 0.8);*/
+  opacity: 0.6;
 }
 
-
-@media screen and (min-width:1280px) {
-
-  .closeicon{
-  display:flex;/* none;*/
-  position:fixed;/*relative;*/
-  width:40px;/*26px;*/
-  height:40px;/*26px;*/
-  top:155px;/*95px;*/
-  left:855px;/*260px;*/
+@media screen and (min-width: 1280px) {
+  .closeicon {
+    display: flex;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    top: 155px;
+    left: 855px;
   }
 }
