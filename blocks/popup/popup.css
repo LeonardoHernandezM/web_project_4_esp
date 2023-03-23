@@ -7,7 +7,7 @@
   left: 0px;
   justify-content: center;
   background-color: #000000;
-  opacity: 0.95;
+  opacity: 0.97;
   z-index: 2;
 }
 
@@ -20,6 +20,6 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    opacity: 0.5;
+    opacity: 0.97;
   }
 }

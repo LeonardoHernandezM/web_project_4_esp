@@ -1,3 +1,9 @@
+
+.editbutton__pencil {
+  background-color:#000000;/* #ffffff;*/
+}
+
+
 .editbutton__pencil:hover {
   border: none none grey;
 }

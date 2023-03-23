@@ -30,5 +30,8 @@
     font-weight: 500;
     color: #ffffff;
     text-align: left;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
   }
 }
