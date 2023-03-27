@@ -45,3 +45,5 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__description/footer__description.css);
+
+@import url(../blocks/scripts/script.js);
