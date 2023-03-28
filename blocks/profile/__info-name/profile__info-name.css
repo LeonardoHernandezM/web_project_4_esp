@@ -16,13 +16,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+
   .profile__info-name {
-    position: absolute;
-    display: flex;
+    position:relative;
     width: 373px;
     height: 39px;
     left: 3px;
-    top: 0px; /*5px;*/
+    top: 0px;
     font-family: "Inter";
     font-style: normal;
     font-size: 41px;
@@ -30,8 +30,9 @@
     font-weight: 500;
     color: #ffffff;
     text-align: left;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
+
 }
