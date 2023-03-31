@@ -1,13 +1,13 @@
 
 
-let buttonEdit = document.querySelector(".editbutton__pencil");
-let popup = document.querySelector(".popup");
-let profileName = document.querySelector(".profile__info-name");
-let profileJob = document.querySelector(".profile__info-description");
-let buttonCloseIcon = document.querySelector(".closeicon");
-let inputName = document.querySelector(".popup__input-name");
-let inputJob = document.querySelector(".popup__input-job");
-let buttonSubmit = document.querySelector(".popup__submit-button");
+const buttonEdit = document.querySelector(".editbutton__pencil");
+const popup = document.querySelector(".popup");
+const profileName = document.querySelector(".profile__info-name");
+const profileJob = document.querySelector(".profile__info-description");
+const buttonCloseIcon = document.querySelector(".closeicon");
+const inputName = document.querySelector(".popup__input-name");
+const inputJob = document.querySelector(".popup__input-job");
+const buttonSubmit = document.querySelector(".popup__submit-button");
 
  
 buttonEdit.addEventListener("click", function () {

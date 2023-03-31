@@ -4,7 +4,7 @@
   height: 22px;
   left: 20px;
   top: 25px;
-  font-family: "Inter";
+  font-family: "Inter","Arial",sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 22px;
@@ -19,7 +19,7 @@
     height: 23px;
     left: 36px;
     top: 25px;
-    font-family: "Inter";
+    font-family: "Inter","Arial",sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 22px;

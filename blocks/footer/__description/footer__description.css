@@ -3,7 +3,7 @@
   height: 14px;
   left: 19px;
   bottom: 36px;
-  font-family: "Inter";
+  font-family: "Inter","Arial",sans-serif;
   font-size: 14px;
   line-height: 16.94px;
   font-weight: 400;
@@ -15,7 +15,7 @@
     width: 318px;
     height: 18px;
     left: 0px;
-    font-family: "Inter";
+    font-family: "Inter","Arial",sans-serif;
     font-size: 14px;
     line-height: 16.94px;
     font-weight: 400;
