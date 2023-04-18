@@ -17,6 +17,7 @@
   left: 19px;
   right: 19px;
   background-color: #000000;
+  margin: auto;
 }
 
 @media screen and (min-width: 1280px) {

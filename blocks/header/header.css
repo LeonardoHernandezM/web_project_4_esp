@@ -6,6 +6,7 @@
   height: 56px;
   top: 35px;
   border-color: #545454;
+  margin:auto;
 }
 
 @media screen and (min-width: 1280px) {
