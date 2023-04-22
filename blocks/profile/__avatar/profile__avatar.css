@@ -4,7 +4,7 @@
   height: 127.5px;
   top: 0px;
   left: 58.5px;
-  right: 100px;
+  /*right: 100px;*/
   box-sizing: content-box;
 }
 
@@ -15,7 +15,7 @@
     height: 128px;
     top: 0px;
     left: 0px;
-    right: 0px;
+    /*right: 0px;*/
     box-sizing: content-box;
   }
 }

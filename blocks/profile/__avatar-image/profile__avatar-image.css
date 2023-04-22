@@ -3,9 +3,9 @@
   width: 120px;
   height: 120px;
   top: 3.75px;
-  bottom: 3.75px;
+  /*bottom: 3.75px;*/
   left: 22.5px;
-  right: 26.25px;
+  /*right: 26.25px;*/
   border-radius: 80%;
 }
 
@@ -15,9 +15,9 @@
     width: 120px;
     height: 120px;
     top: 2px;
-    bottom: 3.5px;
+    /*bottom: 3.5px;*/
     left: 22.5px;
-    right: 26.25px;
+    /*right: 26.25px;*/
     border-radius: 80%;
   }
 }
