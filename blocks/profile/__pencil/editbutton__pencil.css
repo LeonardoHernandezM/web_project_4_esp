@@ -1,9 +1,23 @@
 
 .editbutton__pencil {
   background-color:#000000;/* #ffffff;*/
+  position:absolute;
+  top:4px;
+  left:4px;
 }
 
 
 .editbutton__pencil:hover {
   border: none none grey;
 }
+
+@media screen and (min-width: 1280px) {
+  .editbutton__pencil { 
+    position:absolute;
+    top:7px;
+    left:7px;
+  }
+}
+
+
+

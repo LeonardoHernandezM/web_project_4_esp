@@ -1,20 +1,22 @@
 .header {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position:relative;/*absolute;*/
   width: 320px;
   height: 56px;
-  top: 35px;
+  top:28px; /*35px;*/
   border-color: #545454;
-  margin:auto;
+  /*margin:auto;*/
 }
 
 @media screen and (min-width: 1280px) {
   .header {
+    position: relative;
+    display: flex;
     width: 880px;
     height: 74px;
     top: 45px;
     left: 200px;
-    right: 200px;
+    /*right: 200px;*/
   }
 }
