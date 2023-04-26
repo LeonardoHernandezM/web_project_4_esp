@@ -22,6 +22,6 @@ proceso de aprendizaje.
 
 ## Link GitHub del Proyecto.
 
-[https://github.com/LeonardoHernandezM/web_project_4_esp.git]
+[https://github.com/LeonardoHernandezM/web_project_4_esp.git/index.html]
 
 
