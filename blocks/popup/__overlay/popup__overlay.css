@@ -10,6 +10,32 @@
   z-index: 1;
 }
 
+@media screen and (min-width: 768px) {
+
+  .popup__overlay{
+    position: fixed;
+    width: 282px;
+    height: 322px;
+    left:224px;
+    top:140px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    z-index: 1;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+
+  .popup__overlay {
+
+    width: 320px;
+    height:568px;
+    top: 140px;
+    left:224px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .popup__overlay {
     position: fixed;
@@ -22,3 +48,4 @@
     z-index: 1;
   }
 }
+

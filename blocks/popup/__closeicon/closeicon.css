@@ -11,6 +11,19 @@
   opacity: 0.6;
 }
 
+@media screen and (min-width: 768px) {
+
+  .closeicon {
+   display: flex;
+   position: fixed;
+   width: 26px;
+   height: 26px;
+   top: 91px;
+   left: 475px;
+  }
+ }
+
+
 @media screen and (min-width: 1280px) {
   .closeicon {
     display: flex;
@@ -21,3 +34,5 @@
     left: 855px;
   }
 }
+
+
